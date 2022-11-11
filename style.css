@@ -1,0 +1,15 @@
+:root {
+  --spacing: 30px;
+  --blur: 0px;
+  --color: #fa0505;
+}
+body {
+  font-size: 2rem;
+  text-align: center;
+}
+img {
+  margin-top: 1rem;
+  padding: var(--spacing);
+  background-color: var(--color);
+  filter: blur(var(--blur));
+}
